@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+}
+h4 {
+    color: #000;
+    margin: 2rem auto;
+    font-size: 1.6rem;
+    text-align: left;
+}
+button{   
+    font-weight: bold;
+    border: none;
+    padding: 1rem;
+    font: 1.2rem Verdana;
+    background: linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66));
+}
+input {
+    transition: all 500ms ease-in-out 300ms;
+    margin: 0.90rem 0.40rem;
+    font-weight: bold;
+    border: none;
+    font-size: 1.2rem;
+    height: 3rem;
+    padding: 0.8rem;
+    background: linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66));
+}
+article, main {
+    margin: 0.40rem 0.40rem;
+}
+li {
+    list-style: none;
+}
+/*header*/
+.logo{
+    height: 5rem;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background: #fff;
+}
+.logo-pic {
+    float: left; 
+    clear: both;
+}
+.list {
+    float: right;
+}
+.list li {
+    font-size: 1.2rem;
+    display: inline;
+    margin: 0 0.40rem;
+}
+.country {
+   height: 0.80rem;
+   width: 1.76rem;
+   margin: 0 0.20rem;
+}
+.color {
+    color: hsl(120,100%,45%);
+    transition: all 750ms ease-in-out 500ms;
+}
+.underline {
+    color: hsl(120,100%,45%);
+    border-image-source: linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66));
+    border-image-slice: 1;
+    border-bottom: 0.20rem solid;   
+}   
+.hover:hover {
+    border-image-source: linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66));
+    border-image-slice: 1;
+    border-bottom: 2px solid;
+    color: hsl(120,100%,45%);
+    transition: all 500ms ease-in-out 500ms;
+}
+/*end of header*/
+/*1st body*/
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    text-align: left;
+    height: 40rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://www.universoaupair.com/wp-content/uploads/2018/11/airport-2373727_1920.jpg");
+}
+.body-text {
+    color: #fff;
+    background-color:hsla(0,0%,0%,0.7);
+}
+/*end of 1st body*/
+.under {
+    border-image-source: linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66));
+    border-image-slice: 1;
+    border-bottom: 0.15rem solid;
+    transition: all 500ms linear 500ms;
+}
+#img {
+    margin: 0 auto;
+    border-radius: 5%;
+    width: 40rem;
+}
+.foot {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 40rem;
+    background-image:url("https://www.universoaupair.com/wp-content/uploads/2018/11/pexels-photo-335393.jpeg");
+}
+footer {
+    color: #fff;
+    height: 17rem;
+    background-color: #000;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+} 
+.footer-box {
+    justify-content: space-around;
+    display: flex;
+}
+.footer-box p {
+    color: #808082;
+    text-align: left;
+    margin: 0.40rem 0.40rem;
+}
+.fa {
+    margin: 0.40rem 0.40rem;
+    text-decoration: none;
+    color: linear-gradient(145deg,  #8426b0 3%, rgb(0,143,104), rgb(250,224,66));
+}
+/*2nd list*/
+.span:hover {
+    color: hsl(120,100%,45%);
+    transition: all 500ms ease-in 600ms;
+}
